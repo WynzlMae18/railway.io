@@ -1,0 +1,219 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  color: #f5f5f7;
+  background-image: linear-gradient(79deg, #f1eecc, #d4ce77 48%, #fff5bb);
+  
+}
+
+.auth-form-container, .loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.auth-form-container {
+  padding: 5rem;
+  height: 500px;
+  width: 500px;
+  border: 1px solid #967c26;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.auth-form-container, .bookForm {
+  display: flex;
+  flex-direction: grid;
+  grid: auto / auto auto;
+}
+
+
+.auth-form-container1 {
+  padding: 5rem;
+  height: 500px;
+  width: 500px;
+  border: 1px solid #967c26;
+  border-radius: 10px;
+  margin: 0.5rem;
+  grid: auto / auto auto;
+  justify-items: center;
+ 
+}
+
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color:black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#tripDirectionSelect{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#SeatCategorySelect{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#destinationSelect{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#trainNumberSelect{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#select-style{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: #f5f5f7;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #6395ce;
+}
+
+#bookBtn {
+  background: #f5f5f7;
+  color:rgb(235, 158, 15);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  background-position-y: center;
+}
+
+
+
+.textDiv{
+    padding: 2rem 0;
+}
+#or{
+  align-items: center;
+  text-align: center;
+}
+
+.smallText{
+  font-size: 13px;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color:black;
+}
+#title{
+  position: relative;
+  font-size: 1.8rem;
+  color:rgb(235, 158, 15);
+}
+
+.homeTitle {
+  position: relative;
+  font-size: 1.8rem;
+  align-items: center;
+  text-align: center;
+  color:black;
+}
+#personal{
+  text-align: left;
+  padding: 0.25rem 0;
+  color:black;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  color: #6395ce;
+}
+
+.modal h2 {
+  margin-top: 0;
+  color:black;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color:black;
+}
+#modalfont{
+  text-align: left;
+  color:black;
+}
+
+.modal-buttons button {
+  margin-left: 10px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 20px;
+}
+#h1{
+  position: left;
+  font-size: 1.8rem;
+    left: 100px;
+    top: 150px;
+    color:black;
+}
+.textDiv{
+  padding: 1rem;
+  height: 520px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-content: space-between;
+}
+.logo {
+  display:flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width:50px;
+  height:50px;
+}
